@@ -1,0 +1,33 @@
+inoremap jk <ESC>
+let mapleader = "\<Space>"
+
+filetype off " required
+autocmd filetype crontab setlocal nobackup nowritebackup " make crontab -e work
+
+set rtp+=~/.vim/bundle/vundle/
+set encoding=utf-8
+execute vundle#rc()
+execute pathogen#infect()
+
+Bundle 'gmarik/vundle'
+Bundle 'tomasr/molokai'
+Bundle 'mxw/vim-jsx'
+
+filetype plugin indent on
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
+set clipboard=unnamed " make copy and paste work properly
+set guifont=Menlo:h14
+set hlsearch
+set number
+set spell
+set wildmode=full
+
+syntax enable
+
+let g:jsx_ext_required = 0 " allow JSX in normal JS files
+let g:rehash256 = 1
+
+colorscheme molokai
