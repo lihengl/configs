@@ -2,6 +2,11 @@ parse_git_branch() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
 
+# so that broken symbolic links can be colored
+# prerequisite: `brew install coreutils`
+eval $(gdircolors)
+alias ls="gls --color=auto"
+
 # handy shortcuts
 alias whereami="curl ipecho.net/plain;echo"
 alias glog="git log -n20 --pretty=format:\"%h%x09%an%x09%ad%x09%s\" --date=short"
