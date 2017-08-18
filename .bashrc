@@ -14,8 +14,6 @@ alias ptt1="ssh bbsu@ptt.cc"
 alias ptt2="ssh bbsu@ptt2.cc"
 alias sub="open -a /Applications/Sublime\ Text.app/"
 
-alias how-big-is-this-folder="du -hs"
-
 # customize command prompt appearance
 export LC_CTYPE="en_US.UTF-8"
 export CLICOLOR=1
