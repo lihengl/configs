@@ -42,3 +42,7 @@ export NODE_PATH="$HOME/.nvm/versions/node/v4.4.5/lib/node_modules"
 # RVM
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 export PATH="$PATH:$HOME/.rvm/bin"
+
+# specify workspace for Golang and for convenience, reference Go binaries
+export GOPATH=$HOME
+export PATH=$PATH:$(go env GOPATH)/bin
