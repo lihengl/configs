@@ -6,6 +6,7 @@ parse_git_branch() {
 # prerequisite: `brew install coreutils`
 eval $(gdircolors)
 alias ls="gls --color=auto"
+alias ll="gls -l --color=auto"
 
 # handy shortcuts
 alias whereami="curl ipecho.net/plain;echo"
