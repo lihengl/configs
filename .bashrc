@@ -26,9 +26,6 @@ export EDITOR=vim
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 export PATH=$PATH:/usr/local/opt/go/libexec/bin
 
-# use latest PHP
-export PATH="$(brew --prefix homebrew/php/php70)/bin:$PATH"
-
 # Java and Android
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home
 export ANDROID_HOME=/usr/local/opt/android-sdk
