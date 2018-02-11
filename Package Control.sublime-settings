@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Asciidoctor",
+		"Babel",
+		"Better CoffeeScript",
+		"Cucumber",
+		"Gherkin (Cucumber) Formatter",
+		"Git",
+		"HTML-CSS-JS Prettify",
+		"Jade",
+		"JSONLint",
+		"LESS",
+		"Line Endings Unify",
+		"MarkdownEditing",
+		"npm",
+		"Package Control",
+		"Sass",
+		"SublimeLinter",
+		"SublimeLinter-eslint"
+	]
+}
