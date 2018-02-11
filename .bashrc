@@ -8,6 +8,9 @@ eval $(gdircolors)
 alias ls="gls --color=auto"
 alias ll="gls -l --color=auto"
 
+# so that there is grep -P
+alias grep="ggrep"
+
 # handy shortcuts
 alias whereami="curl ipecho.net/plain;echo"
 alias glog="git log -n20 --pretty=format:\"%h%x09%an%x09%ad%x09%s\" --date=short"
