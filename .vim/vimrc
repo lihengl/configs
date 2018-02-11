@@ -4,16 +4,19 @@ let mapleader = "\<Space>"
 filetype off " required
 autocmd filetype crontab setlocal nobackup nowritebackup " make crontab -e work
 
-set rtp+=~/.vim/bundle/vundle/
 set encoding=utf-8
-execute vundle#rc()
-execute pathogen#infect()
 
-Bundle 'gmarik/vundle'
-Bundle 'tomasr/molokai'
-Bundle 'mxw/vim-jsx'
+" git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/vundle.vim
+" run vim, and then do :PluginInstall
+set rtp+=~/.vim/bundle/vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'tomasr/molokai'
+Plugin 'mxw/vim-jsx'
+call vundle#end()
 
 filetype plugin indent on
+
 set tabstop=2
 set shiftwidth=2
 set expandtab
