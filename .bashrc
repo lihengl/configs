@@ -16,6 +16,7 @@ alias whereami="curl ipecho.net/plain;echo"
 alias ptt1="ssh bbsu@ptt.cc"
 alias ptt2="ssh bbsu@ptt2.cc"
 alias sub="open -a /Applications/Sublime\ Text.app/"
+alias bu="brew update && brew upgrade && brew cleanup"
 alias gl="git log -n50 --pretty=format:\"%h%x09%an%x09%ad%x09%s\" --date=short"
 
 # customize command prompt appearance
