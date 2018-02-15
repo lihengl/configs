@@ -41,10 +41,9 @@ export NVM_DIR="$HOME/.nvm"
 export NODE_PATH="$HOME/.nvm/versions/node/v9.5.0/lib/node_modules"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# RVM
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-export PATH="$PATH:$HOME/.rvm/bin"
-
 # specify workspace for Golang and for convenience, reference Go binaries
 export GOPATH=$HOME
 export PATH=$PATH:$(go env GOPATH)/bin
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
