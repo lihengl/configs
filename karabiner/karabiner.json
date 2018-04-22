@@ -22,7 +22,7 @@
                                     "key_code": "semicolon",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_control"
+                                            "right_control"
                                         ],
                                         "optional": [
                                             "caps_lock"
@@ -72,7 +72,7 @@
                                     "key_code": "h",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_control"
+                                            "right_control"
                                         ],
                                         "optional": [
                                             "caps_lock"
@@ -91,7 +91,7 @@
                                     "key_code": "j",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_control"
+                                            "right_control"
                                         ],
                                         "optional": [
                                             "caps_lock"
@@ -110,7 +110,7 @@
                                     "key_code": "k",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_control"
+                                            "right_control"
                                         ],
                                         "optional": [
                                             "caps_lock"
@@ -129,7 +129,7 @@
                                     "key_code": "l",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_control"
+                                            "right_control"
                                         ],
                                         "optional": [
                                             "caps_lock"
