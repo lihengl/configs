@@ -25,7 +25,8 @@
                                             "right_control"
                                         ],
                                         "optional": [
-                                            "left_shift"
+                                            "left_shift",
+                                            "option"
                                         ]
                                     }
                                 },
@@ -75,7 +76,8 @@
                                             "right_control"
                                         ],
                                         "optional": [
-                                            "right_shift"
+                                            "right_shift",
+                                            "option"
                                         ]
                                     }
                                 },
@@ -94,7 +96,8 @@
                                             "right_control"
                                         ],
                                         "optional": [
-                                            "right_shift"
+                                            "right_shift",
+                                            "option"
                                         ]
                                     }
                                 },
@@ -113,7 +116,8 @@
                                             "right_control"
                                         ],
                                         "optional": [
-                                            "right_shift"
+                                            "right_shift",
+                                            "option"
                                         ]
                                     }
                                 },
@@ -132,7 +136,8 @@
                                             "right_control"
                                         ],
                                         "optional": [
-                                            "right_shift"
+                                            "right_shift",
+                                            "option"
                                         ]
                                     }
                                 },
