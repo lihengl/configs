@@ -12,7 +12,9 @@ set rtp+=~/.vim/bundle/vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tomasr/molokai'
+Plugin 'slim-template/vim-slim.git'
 Plugin 'mxw/vim-jsx'
+Plugin 'editorconfig/editorconfig-vim'
 call vundle#end()
 
 filetype plugin indent on
