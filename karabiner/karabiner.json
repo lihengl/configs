@@ -76,7 +76,7 @@
                                             "right_control"
                                         ],
                                         "optional": [
-                                            "right_shift",
+                                            "shift",
                                             "command",
                                             "option"
                                         ]
@@ -97,7 +97,7 @@
                                             "right_control"
                                         ],
                                         "optional": [
-                                            "right_shift",
+                                            "shift",
                                             "command",
                                             "option"
                                         ]
@@ -118,7 +118,7 @@
                                             "right_control"
                                         ],
                                         "optional": [
-                                            "right_shift",
+                                            "shift",
                                             "command",
                                             "option"
                                         ]
@@ -139,7 +139,7 @@
                                             "right_control"
                                         ],
                                         "optional": [
-                                            "right_shift",
+                                            "shift",
                                             "command",
                                             "option"
                                         ]
