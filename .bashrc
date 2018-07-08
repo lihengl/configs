@@ -31,6 +31,8 @@ export EDITOR=vim
 
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 export PATH=$PATH:/usr/local/opt/go/libexec/bin
+# Pin MySQL at 5.7 for Rails 4 compatibility
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 
 # Java and Android
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home
