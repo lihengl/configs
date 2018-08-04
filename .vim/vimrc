@@ -26,6 +26,7 @@ filetype plugin indent on
 
 set tabstop=2
 set shiftwidth=2
+set bs=2 " make backspace act like other text editor in insert mode
 set expandtab
 
 set clipboard=unnamed " make copy and paste work properly
