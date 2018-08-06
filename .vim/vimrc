@@ -28,6 +28,7 @@ set tabstop=2
 set shiftwidth=2
 set bs=2 " make backspace act like other text editor in insert mode
 set expandtab
+set visualbell " disable error beep sound
 
 set clipboard=unnamed " make copy and paste work properly
 set guifont=Menlo:h14
