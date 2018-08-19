@@ -233,7 +233,7 @@
                                 "key_code": "right_option"
                             },
                             "to": {
-                                "key_code": "right_command"
+                                "key_code": "page_up"
                             }
                         },
                         {
@@ -249,7 +249,7 @@
                                 "key_code": "right_control"
                             },
                             "to": {
-                                "key_code": "power"
+                                "key_code": "page_down"
                             }
                         }
                     ]
