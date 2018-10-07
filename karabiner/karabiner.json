@@ -307,10 +307,10 @@
                     "simple_modifications": [
                         {
                             "from": {
-                                "key_code": "left_control"
+                                "key_code": "backslash"
                             },
                             "to": {
-                                "key_code": "caps_lock"
+                                "key_code": "delete_or_backspace"
                             }
                         },
                         {
@@ -331,7 +331,7 @@
                         },
                         {
                             "from": {
-                                "key_code": "backslash"
+                                "key_code": "grave_accent_and_tilde"
                             },
                             "to": {
                                 "key_code": "delete_or_backspace"
@@ -339,12 +339,42 @@
                         },
                         {
                             "from": {
-                                "key_code": "grave_accent_and_tilde"
+                                "key_code": "left_control"
                             },
                             "to": {
-                                "key_code": "delete_or_backspace"
+                                "key_code": "caps_lock"
                             }
                         },
+                        {
+                            "from": {
+                                "key_code": "right_command"
+                            },
+                            "to": {
+                                "key_code": "page_up"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "right_option"
+                            },
+                            "to": {
+                                "key_code": "page_down"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 657,
+                        "vendor_id": 1452
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": true,
+                    "simple_modifications": [
                         {
                             "from": {
                                 "key_code": "right_command"
