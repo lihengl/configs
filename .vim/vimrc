@@ -20,6 +20,7 @@ Plugin 'slim-template/vim-slim.git'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'mxw/vim-jsx'
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'tpope/vim-surround'
 call vundle#end()
 
 filetype plugin indent on
