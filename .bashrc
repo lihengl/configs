@@ -22,7 +22,7 @@ alias tf="tail -f"
 alias v="vim"
 
 # customize command prompt appearance
-export LC_CTYPE="en_US.UTF-8"
+export LC_ALL="en_US.UTF-8"
 export CLICOLOR=1
 export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[34m\]\h:\[\033[m\]\w\[\033[32m\]\$(parse_git_branch)\[\033[m\]$ "
 
