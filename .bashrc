@@ -43,7 +43,7 @@ export PATH=$ANDROID_HOME/platform-tools:$PATH
 # NVM
 export NVM_DIR="$HOME/.nvm"
 [[ -s "$NVM_DIR/nvm.sh" ]] && . "$NVM_DIR/nvm.sh"
-export NODE_PATH="$HOME/.nvm/versions/node/v9.5.0/lib/node_modules"
+export NODE_PATH="$HOME/.nvm/versions/node/v10.16.3/lib/node_modules"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # specify workspace for Golang and for convenience, reference Go binaries
